@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e12584ac14892e87af58",
+    "revision": "b093e0db9c4ff151918a",
     "url": "/Dope-menu/static/css/main.be9cd952.chunk.css"
   },
   {
-    "revision": "e12584ac14892e87af58",
-    "url": "/Dope-menu/static/js/main.f33c91eb.chunk.js"
+    "revision": "b093e0db9c4ff151918a",
+    "url": "/Dope-menu/static/js/main.2857d1d3.chunk.js"
   },
   {
     "revision": "eb63a92825ce6b930257",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/Dope-menu/static/js/2.2626944e.chunk.js"
   },
   {
-    "revision": "09822d6d24ceb819774de381b8f37fbd",
+    "revision": "0868add7372cbc0a48da69bf83b14312",
     "url": "/Dope-menu/index.html"
   }
 ];
