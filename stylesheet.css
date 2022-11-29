@@ -7,17 +7,55 @@ body{
   background-size: cover;
 }
 
+.balloon {
+  position: relative;
+  margin: 2em 0 2em 40px;
+  padding: 15px;
+  background: #fff0c6;
+  border-radius: 30px;
+  width: 15vw;
+}
+
+.balloon:before {
+  content: "";
+  position: absolute;
+  left: -38px;
+  width: 13px;
+  height: 12px;
+  bottom: 0;
+  background: #fff0c6;
+  border-radius: 50%;
+}
+
+.balloon:after {
+  content: "";
+  position: absolute;
+  left: -24px;
+  width: 20px;
+  height: 18px;
+  bottom: 3px;
+  background: #fff0c6;
+  border-radius: 50%;
+}
+
+.balloon p {
+  margin: 0;
+  padding: 0;
+}
+
 .buttons{
   margin-top: 30vw;
 }
 
-.button:hover{
-  animation: none;
-  background: #dcf8f8;
-}
-
 .buttons a{
  text-decoration: none;
+}
+
+.buttons h2:hover{
+  animation-name: bounce;
+  animation: bnbounce 3s infinite;
+  animation-iteration-count:11;
+  cursor: pointer;
 }
 
 .buttons h2{
@@ -28,8 +66,6 @@ body{
   text-align: center;
   background: linear-gradient(to left, #dcf8f8, white);
   font-family: Verdana, Tahoma, sans-serif;
-  animation: bnbounce 5s infinite;
-  cursor: pointer;
 }
 
 @keyframes bnbounce {
@@ -65,4 +101,183 @@ body{
   40% {
     transform: scale(1) rotate(0);
   }
+}
+
+h1{
+  font-size: 1vw;
+  width: 100vw;
+}
+
+.backbn h2:hover{
+    cursor: pointer;
+}
+
+.backbn h2{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background: #6bb6ff;
+    filter: drop-shadow(0px 2px 4px #ccc);
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.backbn h2:active{
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
+
+.backbn h2:before{
+content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background-image: linear-gradient(
+130deg, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 55%);
+    -webkit-transition: 0.5s;
+    transition: 0.6s;
+}
+.backbn h2:hover:before{
+    left: 100%;
+}
+.backbn h2:after{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transition: 0.2s ease-in-out;
+    content: "\f0da";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transform: translateY(-50%);
+}
+
+.border_Rule{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.border_Rule p {
+    margin: 0;
+    padding: 0;
+}
+
+.Rule_text{
+  font-size: 2vw;
+  font-style: oblique;
+  font-family: Times New Roman, "ＭＳ Ｐゴシック";
+  background-color: rgba(204,255,255,0.4);
+  border-radius: 50px;
+}
+
+.logo{
+  width: 70vw;
+  height: 25vw;
+}
+
+.logo2{
+  width: 20vw;
+  margin-left: 7vw;
+  border: solid 2px #627295;
+}
+
+.Card a{
+  color: #1cc49d;
+  background-color: #1b2f31;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vw;
+  width: 40vw;
+  font-size: large;
+  font-weight: 600;
+  margin: 0 0 0 auto;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.cards {
+  padding: 0.5em 1em;
+  width: 65vw;
+  margin-left: 13vw;
+  color: #5d627b;
+  background-color: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card{
+  width: 22vw;
+  margin-left: 8vw;
+  margin-top: 3vw;
+}
+
+.card7,.card8,.card9,.card10,.card11,.card12,.card13,.card18{
+  width: 22vw;
+  margin-left: 8vw;
+  margin-top: 3vw;
+}
+
+.card7,.card8,.card9,.card10,.card11,.card12,.card13,.card18:hover{
+    cursor: pointer;
+}
+
+.content{
+  z-index:2;
+  width: 50%;
+  padding: 1em;
+  background:#fffff4;
+}
+
+.overlay{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.content img{
+  width: 18.5vw;
+  margin-left: 15vw;
+}
+.card1{
+  height:30vw;
+}
+
+.yajirusi{
+  font-size: 2vw;
+  width: 2vw;
+  margin-left: 23vw;
+  background-color: rgba(204,255,255);
+  border-radius: 50px;
+}
+
+.yajirusi{
+  cursor: pointer;
 }
