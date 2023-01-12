@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Dope-menu/static/css/main.1ae0a725.css",
-    "main.js": "/Dope-menu/static/js/main.576570dd.js",
+    "main.js": "/Dope-menu/static/js/main.c2d82184.js",
     "static/media/SDGs_7&11.png": "/Dope-menu/static/media/SDGs_7&11.762ed30bd8bd0afb7010.png",
+    "static/media/Dope_menu.png": "/Dope-menu/static/media/Dope_menu.bfd7e6ef0e0ed8a4b2ba.png",
     "static/media/05_card.png": "/Dope-menu/static/media/05_card.1a879153e96eb039bdfe.png",
     "static/media/04_card.png": "/Dope-menu/static/media/04_card.f4b89eb54ab872dd542c.png",
     "static/media/03_card.png": "/Dope-menu/static/media/03_card.97434e6640ee27ffef80.png",
@@ -34,10 +35,10 @@
     "static/media/menu_backpg.jpg": "/Dope-menu/static/media/menu_backpg.0776f791fb560fa5380f.jpg",
     "index.html": "/Dope-menu/index.html",
     "main.1ae0a725.css.map": "/Dope-menu/static/css/main.1ae0a725.css.map",
-    "main.576570dd.js.map": "/Dope-menu/static/js/main.576570dd.js.map"
+    "main.c2d82184.js.map": "/Dope-menu/static/js/main.c2d82184.js.map"
   },
   "entrypoints": [
     "static/css/main.1ae0a725.css",
-    "static/js/main.576570dd.js"
+    "static/js/main.c2d82184.js"
   ]
 }
